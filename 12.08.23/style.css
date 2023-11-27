@@ -1,0 +1,24 @@
+.btn{
+    padding: 20px;
+    border-radius: 20px;
+    background: bisque;
+    border: 3px solid goldenrod;
+    cursor: pointer;
+}
+
+.tabs{
+    text-align: center;
+
+}
+
+.tabs__item{
+    display: none;
+}
+
+.active-tab{
+    display: block;
+}
+
+.active-btn{
+    background: goldenrod;
+}

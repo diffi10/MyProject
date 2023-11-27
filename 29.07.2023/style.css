@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 50px auto;
+    background: #d8d1d1;
+    padding: 50px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.slider{
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.slider-line{
+    display: flex;
+    transition: all ease 1.5s;
+    position: relative;
+    left: 0;
+}
+
+.button{
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.button:hover{
+    background: yellow;
+}
+
+.button:active{
+    background: black;
+    color: white;
+}
